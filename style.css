@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.calculator {
+  width: 640px;
+  height: 1000px;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  box-shadow: 5px 15px 15px #b4b4b4;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+
+.containerCalc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 600px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+}
+
+.containerNum{
+  display: flex;  
+  width: 600px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+button {
+  font-family: 'Rubik', sans-serif;
+  font-size: 3rem;
+  background-color: #f0f0f0;
+  color: #1B1B1D;
+/*   font-weight: bold; */
+/*   flex-basis:25%; */
+  width: 135px;
+  height: 135px;
+  padding: 0px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c8c8c8;
+}
+
+.oldCalc{
+  font-family: 'Rubik', sans-serif;
+  font-size: 2rem;
+  margin: 0px 20px 0px 0px;
+}
+
+.newCalc{
+  font-family: 'Rubik', sans-serif;
+  font-size: 5rem;
+/*   font-weight: bold; */
+  margin: 0px 20px 0px 0px;
+}
+
+.zero {
+  flex-grow: 2;
+}
+
+.yellow {
+  background-color: #FFEEC2;
+  color: #C99224;
+}
+
+.orange {
+  background-color: #FFC23B;
+  color: #CC9423;
+}
+
+.yellow:hover {
+  background-color: #ffb61a;
+  color: #1B1B1D;
+}
+
+.orange:hover {
+  background-color: #ffb61a;
+  color: #1B1B1D;
+}
